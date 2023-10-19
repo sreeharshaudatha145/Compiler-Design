@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int x = 5;
+    int y = 10;
+    
+    if (x > y) {
+        printf("x is greater than y.\n");
+    } else {
+        printf("x is not greater than y.\n");
+    }
+    
+    
+    printf("This line will never be executed.\n");
+    
+    return 0;
+}
